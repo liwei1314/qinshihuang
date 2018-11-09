@@ -38,7 +38,9 @@ span{display:inline-block;}
 .prosmore span{height:37px; display:inline-block; width:110px; text-align:center; line-height:37px; font-size:13px;
     float:left; background:#f8f8f8; transition-property:all; transition-duration:1s;}
 .prosmore span:hover{background:#152c4e; color:white;}
-.astype{position:absolute; right:18px;}
+.prosmore span a{color: none ;}
+.prosmore span a:hover{color: white !important;}
+.astype{position:absolute;}
 
 
 
@@ -116,13 +118,14 @@ span{display:inline-block;}
 .rowSpan a{width:170px; height:160px; line-height:0; float:left; margin:40px 0; display:inline-block;  transition-duration:0.5s; -webkit-transition-timing-function:linear; transition-timing-function:linear;}
 .rowSpan h5{color:#152c4e; font-size:16px; font-weight:bold; line-height:37px; margin:100px 0 0 0;}
 .rowSpan b{color:#ddd; font-size:10px; margin:0; line-height:0; font-weight:normal;}
-.rowSpan a:nth-child(1){background:url(../img/business.png) no-repeat;}
-.rowSpan a:nth-child(2){background:url(../img/business.png) -171px top no-repeat;}
+.rowSpan a:nth-child(2){background:url(../img/business.png) no-repeat;}
+.rowSpan a:nth-child(1){background:url(../img/business.png) -171px top no-repeat;}
 .rowSpan a:nth-child(3){background:url(../img/business.png) -342px top no-repeat;}
 .rowSpan a:nth-child(4){background:url(../img/business.png) -513px top no-repeat;}
 .rowSpan a:nth-child(5){background:url(../img/business.png) -684px top no-repeat;}
 .rowSpan a:nth-child(6){background:url(../img/business.png) -855px top no-repeat;}
 .rowSpan a:nth-child(7){background:url(../img/business.png) -1026px top no-repeat;}
+.business .wrap{width: 340px;margin: auto;}
 .rowSpan a:hover{text-decoration:none; box-shadow: 3px 0px 12px 0px #ececec; -webkit-transform: scale(1.1);
     -moz-transform:scale(1.1); transform:scale(1.1);}
 
@@ -179,7 +182,7 @@ span{display:inline-block;}
 .group{height:300px;}
 .group .grouphead{height:300px; padding-top:50px;}
 .group .grouphead dt{float:left; margin:0 20px 0 20px;}
-.group .grouphead img{width:140px;}
+.group .grouphead img{width:140px;height: 140px;border-radius: 50%;}
 .group .grouphead h3{color:#333;}
 .group .grouphead dd:nth-child(3){color:#999;}
 .group .grouphead dd:nth-child(4){color:#999; margin-top:10px;}
