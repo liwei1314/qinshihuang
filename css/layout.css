@@ -211,7 +211,7 @@ span{display:inline-block;}
 .copyul li a{color:white; font-size:18px; }
 .copyul li a:hover{text-decoration:none;}
 .copyul dl{margin-top:13px;}
-.copyul dl dt{width:90px; height:90px; background:white; margin:10px 0 0 70px;}
+.copyul dl dt{width:90px; height:90px; background:white; margin:10px 0 0 70px;background: url('../imgs/qinshihuang_QR.jpg');background-size:100% 100%; }
 .copyul dl dd{margin:10px 0 0 80px; color:white;}
 .copyula a{color:#ccc; line-height:30px;}
 .copyula a:hover{text-decoration:none; color:white;}
@@ -228,6 +228,7 @@ span{display:inline-block;}
 .list-group-item h3{font-weight:bold;}
 .synopsis{padding:30px 20px; background:#2f5dc3; margin-top:60px; font-size:14px;}
 .synopsis ul li{height:40px; padding-left:10px;}
+.synopsis ul li a{color:#fff;}
 .synopsis ul li:hover{background:#264ea7; border:none;}
 
 /*----内容----*/
