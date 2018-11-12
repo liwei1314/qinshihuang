@@ -3,3 +3,25 @@
     width: 420px;
     height: 350px;
 }
+.show .showone>div a dl dt{
+    width: 122px;
+    height: 145px;
+}
+.show .showone>div a dl dt img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius: 5px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+
+}
+.show .showone>div a dl dd:nth-child(3){
+    color: #337ab7;
+    text-decoration: underline;
+}
+.show .showone>div:nth-child(2) a dl dt img{
+    width: 90px;
+    height: 90px;
+}

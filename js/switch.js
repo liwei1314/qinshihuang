@@ -13,7 +13,8 @@
 				$(this).css("left",n*100+"%");
 			  });
 			var i=0;
-			var s = w.size();
+			var s = w.length;
+	/* 		console.log(15,s) */
 			//配置相关变量
             config = config || {},
             automatic = config.automatic || false;
