@@ -9,6 +9,7 @@
          $(this).find(".prosmore").addClass('hide');
 
      });
+    
  })();
 
  $(function () {
@@ -23,11 +24,16 @@
 
  });
  $(".index-teachersin").cslide(); //轮播
+ 
+window.onload=function(){
+    $(".closeTrigger img").attr('src','images/closeBtnImg.gif'); //客服关闭按钮重设
+}
 
 
- $.getJSON('../json/index.json',function(data){
+
+/*  $.getJSON('../json/index.json',function(data){
     console.log(45,data)
  
   
     
-});
+}); */
