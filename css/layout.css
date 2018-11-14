@@ -137,7 +137,7 @@ span{display:inline-block;}
 .aboutUs dd input{font-size:14px; color:#999; background:none; width:138px; line-height:36px; border:#e5e5e5 1px solid; margin-top:30px; transition-property: all; transition-duration: 1s;}
 .aboutUs dd input:hover{background:#2f5dc3; color:white;}
 
-.aboutUs img{ float:right; margin-top:40px;}
+.aboutUs img{ float:right; margin-top:40px;width: 4.6rem;height: 2.8rem;}
 .aboutUs ul{height:180px; box-shadow: 0 3px 12px -5px #c4bebe; margin:40px auto -84px auto; background:#fff;}
 .aboutUs ul li{float:left;}
 .aboutUs ul li:nth-child(odd){width:298px; height:180px; text-align:center; padding-top:55px;}
@@ -235,6 +235,7 @@ span{display:inline-block;}
 .company{width:920px;float:right; padding:0 0 170px 0;}
 .company h4{color:#444; margin-top:90px;}
 .company span{display:inline-block; line-height:30px; font-size:12px;}
+.company img{width: 9.2rem;height: 5rem;}
 
 
 /*---------产品中心-------*/
