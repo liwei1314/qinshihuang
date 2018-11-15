@@ -236,7 +236,7 @@ span{display:inline-block;}
 .company h4{color:#444; margin-top:90px;}
 .company span{display:inline-block; line-height:30px; font-size:12px;}
 .company img{width: 9.2rem;height: 5rem;}
-
+#hotSell{float: none;margin: auto;}
 
 /*---------产品中心-------*/
 .product{padding-top:20px;}
