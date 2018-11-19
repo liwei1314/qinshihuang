@@ -359,6 +359,23 @@ background:#2f5dc3; color:white; text-align:center; text-decoration:none; margin
 #customization dl:hover {
   width: 100%;
 }
+#we img{
+    height: 3.2rem;
+    
+}
+#technology img{
+    width: 6rem;
+    height: 3rem;
+}
+#CareersJoin .w1200 p{
+    font-size: .3rem;
+    margin-top: .3rem;
+    text-align: center;
+}
+#relation img{
+    width: 100%;
+    height: 3rem;
+}
 /* 公共 */
 .ui-flex {
     display: -webkit-box !important;
